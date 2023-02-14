@@ -1,0 +1,15 @@
+E:\Users\chugulevoa\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+E:\Users\chugulevoa\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+E:\Users\chugulevoa\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+E:\Users\chugulevoa\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csprojAssemblyReference.cache
+E:\Users\chugulevoa\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+E:\Users\chugulevoa\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+E:\Users\chugulevoa\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\Олег Чугулёв\Desktop\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.AssemblyReference.cache
+C:\Users\Олег Чугулёв\Desktop\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Олег Чугулёв\Desktop\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\Олег Чугулёв\Desktop\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\Олег Чугулёв\Desktop\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\Олег Чугулёв\Desktop\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\Олег Чугулёв\Desktop\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\Олег Чугулёв\Desktop\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
