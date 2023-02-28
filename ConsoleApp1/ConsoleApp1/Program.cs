@@ -6,6 +6,8 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
+            //РАБОТА С МАССИВАМИ
+            
            Console.Write("Введите длину массива при условие что он должен быть больше 10: ");
             int ArrayLength = Convert.ToInt32(Console.ReadLine());
 
@@ -56,6 +58,38 @@ namespace MyApp
             }
             
             Console.ReadLine();
+            
+            
+            //РАБОТА С FOR
+            
+            int numberOf = 0;
+            int numberMinus = 0;
+            int i;
+            Console.WriteLine("Введите количество желаемых чисел: ");
+            int numbers = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Начните вводить желаемые числа: ");
+
+            for ( i = 0; i < numbers; i++)
+            {
+                int number = Convert.ToInt32(Console.ReadLine());
+
+                if (number < 0)
+                {
+                    numberMinus += number;
+                    numberOf += 1;
+                }
+
+                
+            }
+
+            Console.WriteLine("\nВы ввели все числа!\n");
+            Console.WriteLine("Теперь компьютер произведен несколько действий, " +
+                                "\nкоторые помогут определить количество и сумму отрицательных чисел\n");
+            Console.WriteLine($"Сумма отрицательных чисел равна {numberMinus}. " +
+                                $"\nКоличество отрицательных чисел равно {numberOf}");
+
+            Console.ReadKey();
+
 
 
 
