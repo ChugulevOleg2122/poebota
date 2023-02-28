@@ -6,72 +6,57 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            /*int exit = 1;
+           Console.Write("Введите длину массива при условие что он должен быть больше 10: ");
+            int ArrayLength = Convert.ToInt32(Console.ReadLine());
 
-            while (exit == 1  )
+            while (ArrayLength < 10)
             {
-                Console.WriteLine("Введите число от 1 до 30");
-                int num = Convert.ToInt32(Console.ReadLine());
-
-
-
-                switch (num)
-                {
-
-                    case var s when new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }.Contains(s):
-                        Console.WriteLine("1-ая декада");
-                        exit = 0;
-                        break;
-                    case var s when new[] { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 }.Contains(s):
-                        Console.WriteLine("2-ая декада");
-                        exit = 0;
-                        break;
-                    case var s when new[] { 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 }.Contains(s):
-                        Console.WriteLine("3-ая декада");
-                        exit = 0;
-                        break;
-                    default:
-                        Console.WriteLine("Вы ввели не правильное число, оно не входит в промежуток от 1 до 30 ");
-                        break;
-                }
-            }*/
-
-
-            int a = 10;
-            int b = 20;
-            int c = 30;
-            double i = 0;
-
-            //Console.WriteLine("Введите число i от 1 до 30: ");
-            //i = Convert.ToDouble(Console.ReadLine());
-
-            while (i <= 0 || i > c)
-            {
-                Console.WriteLine("Введите число i, которое входит в диапозон от 1 до 30: ");
-                i = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Введите длину массива еще раз: ");
+                ArrayLength = Convert.ToInt32(Console.ReadLine());
             }
 
-                if (i <= a)
-                {
-                    Console.WriteLine("Число i определилась в первую декаду");
-                    
-                }
-                else if (i > a && i <= b)
-                {
-                    Console.WriteLine("Число i определилась во вторую декаду");
-                    
-                }
-                else if (i > b && i <= c)
-                {
-                    Console.WriteLine("Число i определилась в третью декаду");
-                    
-                }
-                
-                
+            int[] Array = new int[ArrayLength];
             
+            Random rand = new Random();
 
+            for (int i = 0; i < Array.Length; i++)
+            {
+                Array[i] = rand.Next(-20, 20);
+                Console.WriteLine($"Число в массиве {i + 1} = {Array[i]}");
 
-            Console.ReadKey();
+            }
+
+            Console.WriteLine("\nПроверка на отрицательные числа\n");
+            
+            for (int j = 0; j < Array.Length; j++)
+            {
+                if (Array[j] < 0)
+                {
+                    Console.WriteLine($"Число {Array[j]} отрицательное. Возведем ее в степень 2");
+                }
+
+            }
+
+            Console.WriteLine("\nВозведение чисел в квадрат\n");
+
+            for (int g = 0; g < ArrayLength; g++)
+            {
+                if (Array[g] < 0)
+                {
+                    Array[g] = Convert.ToInt32(Math.Pow(Array[g], 2));
+                    Console.WriteLine($"Получим {Array[g]}");
+                }
+            }
+
+            Console.WriteLine($"\nвывод массива\n");
+
+            for (int f = 0; f < Array.Length; f++)
+            {
+                Console.Write($"{Array[f]} ");
+            }
+            
+            Console.ReadLine();
+
 
 
         }
